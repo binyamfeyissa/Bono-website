@@ -5,7 +5,6 @@ type BoundedProps = {
   className?: string;
   children: React.ReactNode;
 };
-
 export default function Bounded({
   as: Comp = "section",
   className,
